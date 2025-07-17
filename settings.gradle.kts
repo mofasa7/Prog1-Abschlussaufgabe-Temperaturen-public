@@ -1,0 +1,1 @@
+rootProject.name = "Prog1-Abschlussaufgabe-Temperaturen"
