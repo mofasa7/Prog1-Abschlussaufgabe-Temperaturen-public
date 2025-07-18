@@ -89,7 +89,7 @@ Implementieren Sie eine Klasse `TemperatureTimeSeries`, die eine Zeitreihe von T
 * `public double getMinTemperature()`: Ermittelt die niedrigste Temperatur über alle Datenpunkte.
 * `public double getMaxTemperature()`: Ermittelt die höchste Temperatur über alle Datenpunkte.
 * `public double getOverallAvg()`: Berechnet den Durchschnitt der Durchschnittstemperaturen aller Datenpunkte.
-* `public TemperatureDataPoint[] getAvgTemperatureDifferences()`: Berechnet die absoluten Temperaturdifferenzen zwischen aufeinanderfolgenden Datenpunkten und gibt diese als Array zurück. Hinweis: Sie können hier eine der Analysemethoden von `TemperatureDataPoint` verwenden, um sich das Leben sehr einfach zu machen.
+* `public TemperatureDataPoint[] getTemperatureDifferences()`: Berechnet die absoluten Temperaturdifferenzen zwischen aufeinanderfolgenden Datenpunkten und gibt diese als Array zurück. Hinweis: Sie können hier eine der Analysemethoden von `TemperatureDataPoint` verwenden, um sich das Leben sehr einfach zu machen.
 
 ### Ausgabe
 
