@@ -55,6 +55,51 @@ public class TemperatureTimeSeriesTest {
     }
 
     /**
+     * Tests for the method getTemperatureDifferences() in the TemperatureTimeSeries class.
+     * <p>
+     * The getTemperatureDifferences() method calculates the differences between
+     * adjacent TemperatureDataPoint instances in the dataPoints list.
+     */
+
+    @Test
+    public void testGetTemperatureDifferencesWithMultipleDataPoints() {
+        TemperatureTimeSeries series = new TemperatureTimeSeries();
+        series.addDataPoint(new TemperatureDataPoint(10.0, 15.0, 20.0, 2025));
+        series.addDataPoint(new TemperatureDataPoint(8.0, 12.0, 18.0, 2025));
+        series.addDataPoint(new TemperatureDataPoint(5.0, 10.0, 15.0, 2025));
+
+        TemperatureDataPoint[] diffs = series.getTemperatureDifferences();
+
+        assertEquals(2, diffs.length);
+        assertEquals(2.0, diffs[0].getMinTemperature());
+        assertEquals(3.0, diffs[0].getAvgTemperature());
+        assertEquals(2.0, diffs[0].getMaxTemperature());
+        assertEquals(3.0, diffs[1].getMinTemperature());
+        assertEquals(2.0, diffs[1].getAvgTemperature());
+        assertEquals(3.0, diffs[1].getMaxTemperature());
+    }
+
+    @Test
+    public void testGetTemperatureDifferencesWithNoDataPoints() {
+        TemperatureTimeSeries series = new TemperatureTimeSeries();
+        TemperatureDataPoint[] diffs = series.getTemperatureDifferences();
+
+        assertNotNull(diffs);
+        assertEquals(0, diffs.length);
+    }
+
+    @Test
+    public void testGetTemperatureDifferencesWithSingleDataPoint() {
+        TemperatureTimeSeries series = new TemperatureTimeSeries();
+        series.addDataPoint(new TemperatureDataPoint(10.0, 15.0, 20.0, 2025));
+
+        TemperatureDataPoint[] diffs = series.getTemperatureDifferences();
+
+        assertNotNull(diffs);
+        assertEquals(0, diffs.length);
+    }
+
+    /**
      * Tests for constructors in the TemperatureTimeSeries class.
      */
 
