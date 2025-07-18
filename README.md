@@ -78,18 +78,18 @@ Implementieren Sie eine Klasse `TemperatureTimeSeries`, die eine Zeitreihe von T
 ### Konstruktoren und Grundfunktionen
 
 * `public TemperatureTimeSeries()`: Erstellt eine leere Zeitreihe.
-* `public TemperatureTimeSeries(String filename)`: Liest Temperaturdaten aus einer CSV-Datei ein. Die erste Zeile wird als Header übersprungen.
+* `public TemperatureTimeSeries(String filename)`: Liest Temperaturdaten aus einer CSV-Datei ein. Das Format der einzelnen Zeilen ist wie in `public TemperatureDataPoint(String line)` beschrieben. Die erste Zeile wird als Header übersprungen.
 * `public void addDataPoint(TemperatureDataPoint dataPoint)`: Fügt einen einzelnen Datenpunkt zur Zeitreihe hinzu.
 * `public ArrayList<TemperatureDataPoint> getDataPoints()`: Gibt alle Datenpunkte zurück.
 * `public int getNumDatapoints()`: Gibt die Anzahl der Datenpunkte zurück.
 
 ### Analysemethoden
 
-* `public TemperatureTimeSeries filterByYear(int year)`: Erstellt eine neue Zeitreihe, die nur Datenpunkte aus dem angegebenen Jahr enthält.
+* `public TemperatureTimeSeries filterByYear(int year)`: Erstellt eine neue Zeitreihe, die nur Datenpunkte aus dem angegebenen Jahr enthält. Es soll also eine neue `TemperatureTimeSeries` erstellt werden, die aber nur die `TemperatureDataPoint`s enthält, welche in dem Jahr `year` aufgenommen wurden.
 * `public double getMinTemperature()`: Ermittelt die niedrigste Temperatur über alle Datenpunkte.
 * `public double getMaxTemperature()`: Ermittelt die höchste Temperatur über alle Datenpunkte.
-* `public double getOverallAvg()`: Berechnet den Durchschnitt aller Durchschnittstemperaturen.
-* `public TemperatureDataPoint[] getAvgTemperatureDifferences()`: Berechnet die absoluten Temperaturdifferenzen zwischen aufeinanderfolgenden Datenpunkten.
+* `public double getOverallAvg()`: Berechnet den Durchschnitt der Durchschnittstemperaturen aller Datenpunkte.
+* `public TemperatureDataPoint[] getAvgTemperatureDifferences()`: Berechnet die absoluten Temperaturdifferenzen zwischen aufeinanderfolgenden Datenpunkten und gibt diese als Array zurück. Hinweis: Sie können hier eine der Analysemethoden von `TemperatureDataPoint` verwenden, um sich das Leben sehr einfach zu machen.
 
 ### Ausgabe
 
