@@ -1,11 +1,14 @@
 # public Repository
 This repository is public because GitHub does not allow changing the visibility of forks.
-  Station: Geringswalde-Altgeringswalde
-  Jahr 1: 2014, Durchschnittstemperatur: 10,22 °C
-  Jahr 2: 2024, Durchschnittstemperatur: 11,17 °C
+ Analysis
+ Station: Geringswalde-Altgeringswalde
+ Jahr 1: 2014, Durchschnittstemperatur: 10,22 °C
+ Jahr 2: 2024, Durchschnittstemperatur: 11,17 °C
 
-**Kurze Zusammenfassung:**  
-Die durchschnittliche Temperatur ist in den letzten 10 Jahren um etwa 1°C gestiegen.
+Kurze Zusammenfassung:
+Die durchschnittliche Temperatur ist in den letzten 10 Jahren um etwa 0,95 °C gestiegen. Dies deutet auf eine leichte Erwärmung an der Messstation Geringswalde-Altgeringswalde hin.
+Ein möglicher Grund könnte der fortschreitende Klimawandel sein.
+
 
 # Abschlussaufgabe
 
