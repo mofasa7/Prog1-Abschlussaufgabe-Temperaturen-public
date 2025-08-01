@@ -1,3 +1,14 @@
+# Public 
+
+This repository is public because GitHub does not allow changing the visibility of forks 
+
+Station: Geringswalde-Altgeringswalde  
+Jahr 1: 2014, Durchschnittstemperatur: 10,22 °C  
+Jahr 2: 2024, Durchschnittstemperatur: 11,17 °C
+Die durchschnittliche Temperatur ist in den letzten 10 Jahren um etwa 1°C gestiegen.
+
+
+
 # Abschlussaufgabe
 
 Herzlichen Glückwunsch, Sie haben es fast durch Programmierung 1 geschafft - hier kommt die Abschlussaufgabe!
