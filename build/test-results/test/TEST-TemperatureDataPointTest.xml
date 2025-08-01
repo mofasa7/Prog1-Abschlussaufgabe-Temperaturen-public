@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TemperatureDataPointTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-08-01T12:56:32.634Z" hostname="AL-SANABANI" time="0.182">
+  <properties/>
+  <testcase name="testToStringWithMixedValues()" classname="TemperatureDataPointTest" time="0.084"/>
+  <testcase name="testTemperatureDifferenceWithNegativeValues()" classname="TemperatureDataPointTest" time="0.005"/>
+  <testcase name="testTemperatureDifferenceWithSameDataPoints()" classname="TemperatureDataPointTest" time="0.004"/>
+  <testcase name="testTemperatureDifferenceWithPositiveValues()" classname="TemperatureDataPointTest" time="0.006"/>
+  <testcase name="testIsInYearWhenYearMatches()" classname="TemperatureDataPointTest" time="0.005"/>
+  <testcase name="testConstructorWithStringInput()" classname="TemperatureDataPointTest" time="0.006"/>
+  <testcase name="testTemperatureDifferenceWithZeroValues()" classname="TemperatureDataPointTest" time="0.003"/>
+  <testcase name="testTemperatureDifferenceWithMixedValues()" classname="TemperatureDataPointTest" time="0.002"/>
+  <testcase name="testToStringWithNegativeValues()" classname="TemperatureDataPointTest" time="0.003"/>
+  <testcase name="testIsInYearWhenYearDoesNotMatch()" classname="TemperatureDataPointTest" time="0.003"/>
+  <testcase name="testConstructorWithDirectValues()" classname="TemperatureDataPointTest" time="0.004"/>
+  <testcase name="testToStringWithPositiveValues()" classname="TemperatureDataPointTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

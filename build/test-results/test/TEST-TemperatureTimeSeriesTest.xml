@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TemperatureTimeSeriesTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-08-01T12:56:32.857Z" hostname="AL-SANABANI" time="0.088">
+  <properties/>
+  <testcase name="testGetTemperatureDifferencesWithSingleDataPoint()" classname="TemperatureTimeSeriesTest" time="0.005"/>
+  <testcase name="testGetMinTemperatureWithSingleDataPoint()" classname="TemperatureTimeSeriesTest" time="0.002"/>
+  <testcase name="testEmptyConstructor()" classname="TemperatureTimeSeriesTest" time="0.004"/>
+  <testcase name="testGetMinTemperatureWithIdenticalTemperatures()" classname="TemperatureTimeSeriesTest" time="0.008"/>
+  <testcase name="testGetMinTemperatureWithMultipleDataPoints()" classname="TemperatureTimeSeriesTest" time="0.002"/>
+  <testcase name="testGetMinTemperatureWithNoDataPoints()" classname="TemperatureTimeSeriesTest" time="0.002"/>
+  <testcase name="testGetTemperatureDifferencesWithMultipleDataPoints()" classname="TemperatureTimeSeriesTest" time="0.005"/>
+  <testcase name="testConstructorWithFileNotFound()" classname="TemperatureTimeSeriesTest" time="0.012"/>
+  <testcase name="testGetMinTemperatureWithAllPositiveTemperatures()" classname="TemperatureTimeSeriesTest" time="0.004"/>
+  <testcase name="testGetTemperatureDifferencesWithNoDataPoints()" classname="TemperatureTimeSeriesTest" time="0.001"/>
+  <testcase name="testConstructorWithFileSuccess()" classname="TemperatureTimeSeriesTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
